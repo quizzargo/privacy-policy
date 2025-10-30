@@ -25,7 +25,7 @@ The app is built with a focus on accessibility, minimal data usage, and strong o
 This repository exists to publicly host Quizzar Go’s **Privacy Policy**, ensuring full transparency for users and compliance with Google Play requirements.
 
 Read the full policy here:  
-[https://quizzargo.github.io/quizzargo-privacy/](https://quizzargo.github.io/quizzargo-privacy/)
+[https://quizzargo.github.io/quizzargo-privacy/index.html](https://quizzargo.github.io/quizzargo-privacy/index.html)
 
 ---
 

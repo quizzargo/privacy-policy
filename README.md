@@ -44,19 +44,19 @@ Read the full policy here:
 ---
 
 ## Developer
-Quizzar Go was created and developed by **Usmalik Alexander**, a developer interested in the intersection of **AI, education, and productivity**.
+Quizzar Go was created and developed by **Usmalik Alexander**, a developer passionate about combining **AI, education, and creativity**.
 
-I build tools that help people learn, think, and create more efficiently.  
-This project reflects that goal — combining intelligent assistance with a clean, user-first experience.
+I build tools that make learning interactive and efficient — Quizzar Go is part of that mission.
 
-**Contact:** [quizzargo@gmail.com](mailto:quizzargo@gmail.com)
+**App Contact (Support & Feedback):** [quizzargo@gmail.com](mailto:quizzargo@gmail.com)  
+**Personal Contact (Collaboration & Dev Inquiries):** [usmalikalexander001@gmail.com](mailto:usmalikalexander001@gmail.com)
 
 ---
 
 ## Legal
-© 2025 Usmalik Alexander. All rights reserved.  
+© 2025 **Malix (Usmalik Alexander)**. All rights reserved.  
 This repository is for informational and compliance purposes only.  
-For details, refer to the [Privacy Policy](https://quizzargo.github.io/quizzargo-privacy/).
+For details, see the [Privacy Policy](https://quizzargo.github.io/quizzargo-privacy/).
 
 ---
 

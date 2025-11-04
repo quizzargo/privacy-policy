@@ -18,71 +18,92 @@
 <body>
   <div class="wrap">
     <h1>Privacy Policy — Quizzar Go</h1>
-    <p>Last updated: <strong>October 30, 2025</strong></p>
+    <p>Last updated: <strong>November 4, 2025</strong></p>
 
-    <p>Quizzar Go ("we", "us", "the App") is an educational quiz generator and AI learning tool. This Privacy Policy explains how we collect, use, and protect information when you use the Quizzar Go mobile application.</p>
+    <p>Quizzar Go ("we", "us", or "the App") is a learning and quiz-generation app that uses trusted AI technologies to make studying and revision easier. This Privacy Policy explains how we collect, use, and protect information when you use the Quizzar Go mobile application.</p>
 
     <h2>Summary</h2>
     <div class="notice">
-      <p><strong>Short version:</strong> Quizzar Go does not sell or share your personal data. The app may send text or image prompts you provide to trusted AI services (Google Gemini or OpenAI) to generate quiz content. Optional analytics and crash reports may be collected to improve performance. You can contact us at <a href="mailto:quizzargo@gmail.com">quizzargo@gmail.com</a>.</p>
+      <p><strong>Short version:</strong> Quizzar Go does not sell or share your personal data. The app sends user prompts and optional images to trusted AI services (Google Gemini and OpenAI ChatGPT) to generate quiz content. No personal information or images are stored by us. Technical device data is collected via Firebase for analytics and security. Ads and rewards are powered by Google AdMob.</p>
     </div>
 
     <h2>Information We Collect</h2>
 
     <h3>1. User-provided information</h3>
-    <p>When you type prompts, quiz titles, or chat messages, that text is used to generate content and may be temporarily transmitted to AI services. If you use multimodal features (e.g., image-based input), images are processed by the AI provider only for that request.</p>
+    <p>When you type prompts, quiz titles, or chat messages, that text is sent securely to AI services to generate content such as multiple-choice questions, fill-in-the-blanks, or explanations. If you use the camera feature, captured images are sent only to the AI provider for processing and are <strong>not</strong> stored, uploaded, or saved by us.</p>
 
     <h3>2. Automatically collected information</h3>
     <p>The app may collect limited technical data through Firebase services, including:</p>
     <ul>
       <li>Crash reports and basic diagnostics (via Firebase Crashlytics — optional)</li>
-      <li>Anonymous feature usage (Firebase Analytics — optional)</li>
-      <li>Remote configuration fetches for app settings and key rotation</li>
+      <li>Anonymous usage data (Firebase Analytics — optional)</li>
+      <li>Device details for app usage tracking:</li>
     </ul>
+    <pre>
+await _firestore.collection('app_users').add({
+  'device_type': deviceType,
+  'timestamp': now,
+  'platform': Platform.operatingSystem,
+});
+    </pre>
+    <p>This data helps improve stability and can be deleted upon request.</p>
 
     <h3>3. Local storage</h3>
-    <p>All saved quizzes, preferences, and chat history are stored locally on your device using secure app storage (Hive or SharedPreferences). The app does <strong>not</strong> access your photos, media, or external files.</p>
+    <p>Your quizzes, tokens, and preferences are stored locally on your device using secure storage (Hive or SharedPreferences). The app does <strong>not</strong> access your photos, media, contacts, or external files.</p>
 
     <h2>How We Use Information</h2>
     <ul>
-      <li>To generate quizzes and AI responses through trusted AI APIs</li>
-      <li>To store your quizzes and progress locally for convenience</li>
-      <li>To analyze app performance and fix bugs (if Crashlytics/Analytics is enabled)</li>
-      <li>To deliver rewarded ads or in-app ads using third-party ad networks</li>
+      <li>To generate quizzes and AI-based educational content</li>
+      <li>To store user preferences and quiz progress locally</li>
+      <li>To analyze performance and fix bugs</li>
+      <li>To deliver rewarded ads and manage the qToken economy (used to unlock AI features)</li>
     </ul>
+
+    <h2>Accuracy Disclaimer</h2>
+    <p>AI-generated content may contain inaccuracies. Quizzar Go does not guarantee that all questions or answers are factually correct. Users should not rely solely on generated material for examinations or critical decisions. We strongly advise not to include personal or sensitive information in prompts or chat inputs.</p>
 
     <h2>Third-Party Services</h2>
-    <p>We use third-party providers to offer essential features. Each service has its own privacy practices:</p>
+    <p>We use third-party services to deliver core features:</p>
     <ul>
-      <li><strong>AI Providers:</strong> Google Gemini and OpenAI — used for generating quiz or chat responses.</li>
-      <li><strong>Firebase:</strong> Remote Config, Crashlytics, and Analytics — used for diagnostics and configuration.</li>
-      <li><strong>Ad Networks:</strong> Google AdMob — displays ads and rewarded ads following their privacy terms.</li>
+      <li><strong>AI Providers:</strong> Google Gemini and OpenAI — for AI-generated quizzes and explanations.</li>
+      <li><strong>Firebase:</strong> Analytics, Crashlytics, Firestore, and Remote Config — for app diagnostics and configuration.</li>
+      <li><strong>Ad Networks:</strong> Google AdMob — for showing ads and rewarded videos.</li>
     </ul>
+    <p>When ads are displayed, AdMob may collect anonymous identifiers and usage data per their <a href="https://policies.google.com/privacy">Privacy Policy</a>.</p>
+
+    <h2>Open Source & Licensed Assets</h2>
+    <p>Quizzar Go uses open-licensed design and animation assets:</p>
+    <ul>
+      <li>Lucide Icons — Open-source icon set under the ISC License</li>
+      <li>Poppins Font — Google Fonts under the SIL Open Font License</li>
+      <li>Lottie Animations — Licensed under the Lottie Simple License (e.g., “Confetti” by Mario Cabrera)</li>
+    </ul>
+    <p>These assets are for visual enhancement only and do not collect or transmit user data.</p>
 
     <h2>Data Retention</h2>
-    <p>Local data (quizzes, chats, preferences) stays on your device until you delete it. Analytics and crash data are retained by Firebase according to their retention schedules. We do not store or host user-generated content on our own servers.</p>
+    <p>Local data remains on your device until you delete it. Firebase data (e.g., crash logs) follows Google’s retention policies. You may contact us to request deletion of any Firebase entries associated with your device.</p>
 
     <h2>Children</h2>
-    <p>The app is designed for general audiences. We do not knowingly collect personal information from children under 13. If you believe your child has submitted data through the app, contact us for assistance in removal.</p>
+    <p>Quizzar Go is designed for general audiences. We do not knowingly collect personal data from children under 13. If you believe a child has provided data, please contact us for immediate removal.</p>
 
     <h2>Security</h2>
-    <p>We use secure APIs and rely on trusted third-party services to handle limited data. No method of transmission or storage is completely secure, so we recommend not sharing sensitive personal information in prompts or chat messages.</p>
+    <p>We use HTTPS encryption and trusted APIs to handle data securely. However, no system is completely secure, and we recommend avoiding sensitive personal details in prompts or uploads.</p>
 
     <h2>Your Choices</h2>
     <ul>
-      <li>You can clear all saved data from within the app.</li>
-      <li>You can disable analytics or crash reporting (if the app settings provide that option).</li>
-      <li>You can manage ad personalization through Google’s ad settings.</li>
+      <li>You can clear all app data at any time from your device settings.</li>
+      <li>You can disable ads personalization via Google’s ad settings.</li>
+      <li>You can request deletion of your anonymous Firebase data by emailing us.</li>
     </ul>
 
     <h2>Changes to This Policy</h2>
-    <p>We may update this policy periodically to reflect changes in our practices or services. The date above will always indicate the most recent revision.</p>
+    <p>We may update this policy when the app’s data handling or third-party services change. The "Last Updated" date above will always reflect the latest version.</p>
 
     <h2>Contact</h2>
     <p>Questions or privacy requests: <a href="mailto:quizzargo@gmail.com">quizzargo@gmail.com</a></p>
 
     <footer>
-      <p>© 2025 Quizzar Go. This privacy policy is provided for informational purposes only and does not constitute legal advice.</p>
+      <p>© 2025 Quizzar Go. All rights reserved. This privacy policy is for informational purposes only and does not constitute legal advice.</p>
     </footer>
   </div>
 </body>

@@ -3,86 +3,133 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Quizzar Go - Legal</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap" rel="stylesheet">
+<title>Quizzar Go Legal Information</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  body { 
-    font-family: 'Lexend', -apple-system, Segoe UI, Roboto, sans-serif; 
-    background-color: #f8f9fa; 
-    margin: 0; 
-    padding: 40px 20px; 
-    color: #1a1a1a; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    min-height: 80vh;
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 0 24px;
+    line-height: 1.6;
   }
-  .container {
-    background: #ffffff;
-    max-width: 440px;
-    width: 100%;
-    padding: 48px 40px;
-    border-radius: 16px;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+  
+  header {
     text-align: center;
-    border: 1px solid #f1f3f5;
+    margin-bottom: 48px;
   }
-  h1 { 
-    font-size: 1.75em; 
+
+  .logo-placeholder {
+    width: 64px;
+    height: 64px;
+    background: #2563eb;
+    border-radius: 16px;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
     font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 8px; 
+    font-size: 24px;
+    box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
   }
+
+  h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+  }
+
   p.subtitle {
-    color: #6c757d;
-    font-size: 0.95em;
-    margin-bottom: 32px;
-  }
-  .links { 
-    display: flex; 
-    flex-direction: column; 
-    gap: 16px; 
-  }
-  a.card-link { 
-    display: block;
-    padding: 18px 24px;
-    background-color: #ffffff;
-    color: #1a1a1a;
-    text-decoration: none;
+    color: #6b7280;
+    margin: 0;
     font-size: 1.05em;
-    font-weight: 500;
+  }
+
+  .nav-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background: #ffffff;
     border: 1px solid #e5e7eb;
     border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
     transition: all 0.2s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   }
-  a.card-link:hover { 
+
+  .card:hover {
     border-color: #2563eb;
-    background-color: #f8fafc;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.08);
   }
-  .footer {
-    margin-top: 40px;
+
+  .card h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    color: #111827;
+  }
+
+  .card p {
+    margin: 0;
+    color: #6b7280;
+    font-size: 0.95em;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid #e5e7eb;
+    color: #9ca3af;
     font-size: 0.85em;
-    color: #adb5bd;
+  }
+
+  footer a {
+    color: #6b7280;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+    color: #111827;
   }
 </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Quizzar Go</h1>
-    <p class="subtitle">Legal Information &amp; Policies</p>
-    
-    <div class="links">
-      <a href="privacy-policy.html" class="card-link">Privacy Policy</a>
-      <a href="terms.html" class="card-link">Terms &amp; Conditions</a>
-    </div>
+  <header>
+    <!-- You can replace the text inside this div with an <img src="your-logo.png"> later -->
+    <div class="logo-placeholder">QG</div>
+    <h1>Legal &amp; Privacy</h1>
+    <p class="subtitle">Important information about using Quizzar Go</p>
+  </header>
 
-    <div class="footer">
-      &copy; 2026 Quizzar Go. All rights reserved.
-    </div>
+  <div class="nav-grid">
+    <a href="privacy-policy.html" class="card">
+      <h2>Privacy Policy</h2>
+      <p>Learn how we collect, use, and protect your data.</p>
+    </a>
+
+    <a href="terms.html" class="card">
+      <h2>Terms &amp; Conditions</h2>
+      <p>Read the rules and guidelines for using the application.</p>
+    </a>
   </div>
+
+  <footer>
+    <p>&copy; 2026 Quizzar Go. All rights reserved.</p>
+    <p>Contact: <a href="mailto:quizzargo@gmail.com">quizzargo@gmail.com</a></p>
+  </footer>
 </body>
 </html>

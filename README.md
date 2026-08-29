@@ -1,31 +1,29 @@
-# Quizzar Go — Privacy Policy
+# Quizzar Go — Legal & Privacy
 
-This repository hosts the **Privacy Policy** for the **Quizzar Go** mobile app.
+This repository hosts the official legal documents (Privacy Policy, Terms & Conditions, and Account Deletion instructions) for the **Quizzar Go** mobile application.
 
-Quizzar Go is an **AI-powered quiz and learning companion** designed to make studying smarter, faster, and more personal.  
-It uses modern AI tools to generate quizzes, explain concepts, and track progress — all within a clean, focused interface.
+Quizzar Go is an **AI-powered quiz and learning companion** designed to make studying smarter, faster, and more personal. It utilizes modern AI models to generate custom quizzes from prompts, documents, and images, explain complex concepts, and help users master any subject through active recall.
+
+---
+
+## Legal Documents
+This repository exists to publicly host Quizzar Go’s legal policies, ensuring full transparency for users and compliance with Google Play Store requirements.
+
+- [Privacy Policy](https://quizzargo.github.io/privacy-policy.html)
+- [Terms & Conditions](https://quizzargo.github.io/terms.html)
+- [Account Deletion](https://quizzargo.github.io/delete-account.html)
 
 ---
 
 ## About Quizzar Go
-Quizzar Go combines practical education features with intelligent automation.  
-The app is built with a focus on accessibility, minimal data usage, and strong offline capabilities.
+Quizzar Go combines practical educational principles with intelligent automation. The app is built with a focus on accessibility, minimal, human-scaled digital design, and robust cross-platform capabilities.
 
-**Key highlights:**
-- AI-driven quiz and chat generation (Gemini and OpenAI)
-- Local storage of quizzes and history using Hive
-- Rewarded ads for earning in-app tokens (qTokens)
-- Light and dark themes inspired by Discord and ChatGPT design
-- Timezone-based reminders and local notifications
-- Privacy-first architecture with no personal data collection
-
----
-
-## Privacy and Transparency
-This repository exists to publicly host Quizzar Go’s **Privacy Policy**, ensuring full transparency for users and compliance with Google Play requirements.
-
-Read the full policy here:  
-[Privacy Policy]( https://quizzargo.github.io/privacy-policy/)
+**Key Highlights:**
+- AI-driven quiz generation (MCQs, Fill-in-the-blanks) via Google Gemini.
+- PDF and image processing for instant custom study materials.
+- "Defend" and built-in AI chat features for deeper conceptual understanding.
+- Secure, cross-device synchronization using Supabase.
+- Privacy-first architecture with strict COPPA compliance and age-gating.
 
 ---
 
@@ -34,29 +32,27 @@ Read the full policy here:
 | Category | Stack |
 |-----------|--------|
 | Framework | Flutter (Dart) |
-| Backend / Config | Firebase |
-| AI Services | Google Gemini, OpenAI |
-| Storage | Hive, Shared Preferences |
-| UI | Material 3, Google Fonts, Lottie Animations |
-| Ads | Google Mobile Ads (Rewarded) |
-| Hosting | GitHub Pages (for this policy) |
+| Backend & Auth | Supabase |
+| AI Services | Google Gemini API |
+| Payments | Google Play Billing |
+| Ads | Google AdMob |
+| UI / Design | Material 3, Inter & Lexend Typography |
+| Hosting | GitHub Pages (for these legal documents) |
 
 ---
 
 ## Developer
-Quizzar Go was created and developed by **Usmalik Alexander**, a developer interested in the intersection of **AI, education, and productivity**.
+Quizzar Go is developed by **Usmalik Alexander** (Malix Works), a developer focused on the intersection of **AI, education, and productivity**.
 
-I build tools that help people learn, think, and create more efficiently.  
-This project reflects that goal — combining intelligent assistance with a clean, user-first experience.
+I build tools that help people learn, think, and create more efficiently. This project reflects that goal — combining intelligent assistance with a clean, deliberate, user-first experience.
 
 **Contact:** [quizzargo@gmail.com](mailto:quizzargo@gmail.com)
 
 ---
 
 ## Legal
-© 2025 Usmalik Alexander. All rights reserved.  
-This repository is for informational and compliance purposes only.  
-For details, refer to the [Privacy Policy](https://quizzargo.github.io/quizzargo-privacy/).
+© 2026 Usmalik Alexander. All rights reserved.  
+This repository is for informational and compliance purposes only. 
 
 ---
 
